@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-const header= () => {
+const Header= () => {
   return (
-    <div className="bg-orange-50 min-h-screen flex flex-col ">
+    <div className="bg-orange-50 flex flex-col ">
       {/* Navbar */}
       <nav className="bg-orange-50  py-4 ">
         <div className="container mx-auto flex justify-between items-center px-4 ">
@@ -36,4 +36,4 @@ const header= () => {
   )
 }
 
-export default header;
+export default Header;
