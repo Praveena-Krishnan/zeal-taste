@@ -2,7 +2,7 @@ import { HiLocationMarker, HiClock, HiCalendar } from 'react-icons/hi';
 
 const cardData = [
   {
-    icon: <HiLocationMarker className="text-white text-2xl" />,
+    icon: <HiLocationMarker className="text-white text-4xl" />,
     title: 'Find Us',
     description: [
       '1234 Innovation Drive',
@@ -11,7 +11,7 @@ const cardData = [
     ],
   },
   {
-    icon: <HiClock className="text-white text-2xl" />,
+    icon: <HiClock className="text-white text-4xl" />,
     title: 'Open Hours',
     description: [
       'Mon To Fri',
@@ -20,7 +20,7 @@ const cardData = [
     ],
   },
   {
-    icon: <HiCalendar className="text-white text-2xl" />,
+    icon: <HiCalendar className="text-white text-4xl" />,
     title: 'Reservation',
     description: [
       '+1 (800) 555-1234',
