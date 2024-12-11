@@ -9,6 +9,8 @@ export default {
   theme: {
     extend: {
       fontFamiliy:{
+        sansita: ["var(--font-sansita)", 'sans-serif'], 
+        lato: ["var(--font-lato)", 'serif'],
 
       },
       colors: {
