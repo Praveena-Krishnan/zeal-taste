@@ -14,6 +14,7 @@ import image_3 from "../public/images/image3.png";
 import FeaturedDelicacies from "./components/FeaturedDelicacies";
 import boxData from "../Data/BoxData";
 import VoiceOfFlavour from "./components/VoiceOfFlavour";
+import FeatureCard from "./components/FeatureCard";
 
 export default function Home() {
   const { heading1, heading2, description } = SectionTitleData[0];
@@ -78,7 +79,7 @@ export default function Home() {
       </div>
     </section>
     <VoiceOfFlavour/>
-
+    <FeatureCard/>
     
    
     </div>

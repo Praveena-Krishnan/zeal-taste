@@ -8,7 +8,7 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamiliy:{
+      fontFamily:{
         sansita: ["var(--font-sansita)", 'sans-serif'], 
         lato: ["var(--font-lato)", 'serif'],
 

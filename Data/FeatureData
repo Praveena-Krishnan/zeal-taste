@@ -1,0 +1,15 @@
+// featuresData.js
+export const featuresData = [
+  {
+    icon: "FaDollarSign",
+    title: "Reasonable Prices",
+  },
+  {
+    icon: "FaCouch",
+    title: "Cozy Atmosphere",
+  },
+  {
+    icon: "FaAward",
+    title: "Good Quality Products",
+  },
+];
