@@ -8,7 +8,7 @@ const InfoCard = ({ icon, title, description }) => {
         {icon}
       </div>
       {/* Title */}
-      <h3 className="text-green-800 font-bold text-lg">{title}</h3>
+      <h3 className="text-green-800 font-bold text-lg font-sansita">{title}</h3>
       {/* Description */}
       <p className="text-gray-600">
         {description.map((line, index) => (
