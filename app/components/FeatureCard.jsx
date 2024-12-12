@@ -8,13 +8,13 @@ const FeaturesSection = () => {
       {featuresData.map((feature, index) => {
         const Icon = Icons[feature.icon]; 
         return (
-          <div key={index} className="flex flex-row text-center items-center gap-3">
+          <div key={index} className="flex flex-row text-center items-center gap-3 font-sansita text-3xl">
           {/* Background Container */}
             <div className="w-16 h-16 bg-orange-500 rounded-full flex justify-center items-center">
              {/* Icon */}
               <Icon size={30} className="text-white" />
             </div>
-            <p className="font-semibold text-lg text-green-900">{feature.title}</p>
+            <p className="font-semibold  text-green-900 font-sansita text-2xl">{feature.title}</p>
           </div>
 
         );

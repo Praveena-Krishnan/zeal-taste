@@ -24,8 +24,8 @@ const VoicesOfFlavor = () => {
           {/* Text */}
           <div className="max-w-lg text-left">
             <p className="text-orange-500 text-8xl font-bold mb-6">“</p>
-            <p className="text-green-800 font-bold leading-tight text-3xl">
-              <span className=" text-green-800 font-bold" >"Zeal Taste</span> is
+            <p className="text-green-800 font-bold leading-tight text-3xl font-sansita">
+              <span className=" text-green-800 font-bold " >"Zeal Taste</span> is
               a revelation in street food! The gourmet dishes are not only
               delicious but also beautifully presented. The food truck
               experience is both convenient and indulgent. I can't get enough

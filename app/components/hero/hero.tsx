@@ -13,11 +13,11 @@ const Hero = () => {
     <section className="bg-orange-50 py-12">
       <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center ">
         <div className="text-center md:text-left md:w-1/2 space-y-4 ml-28">
-          <h1 className="text-orange-500 uppercase tracking-wide font-bold text-sm">Savory Wheels</h1>
+          <h1 className="text-orange-500 uppercase tracking-wide font-lato font-bold text-sm">Savory Wheels</h1>
           <h2 className="text-green-800 font-bold text-4xl md:text-6xl leading-tight font-sansita">
             Zeal Taste: <br></br>Culinary Delights<br></br> on Wheels
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed">
+          <p className="text-gray-700 text-lg leading-relaxed font-lato">
             Bringing Gourmet Street Food to Your Neighborhood – Fresh, Flavorful, and Fast!
           </p>
           <Mybutton label="Book your table"/>

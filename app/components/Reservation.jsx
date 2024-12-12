@@ -13,7 +13,7 @@ const ReservationSection = () => {
           heading2="Make your Reservation"
           heading2ClassName="text-white"
         />
-        <div className='mt-0 py-0 font-lato'>
+        <div className='mt-0 py-0 font-lato text-gray-200'>
             <p  className>Call +1 (800) 555-1234 from 5a – 11p daily, or book online.<br></br>
             Reservations required for parties of 4 or more.</p>
         </div>

@@ -6,10 +6,10 @@ const FeaturedDelicacies = ({ image, title, description, price }) => {
         <Image src={image} alt={title} className="w-48 h-48 mx-auto rounded-full mb-6" width={96} height={96} />
         
         {/* Title */}
-        <h3 className="text-green-800 font-semibold text-4xl">{title}</h3>
+        <h3 className="text-green-800 font-semibold text-4xl font-sansita">{title}</h3>
         
         {/* Description */}
-        <p className="text-gray-600  mt-2 text-xl">{description.map((line,index)=>(
+        <p className="text-gray-600  mt-2 text-xl font-lato">{description.map((line,index)=>(
             <span key={index}>{line}</span>
         ))}</p>
         
