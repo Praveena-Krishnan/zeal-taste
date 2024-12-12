@@ -13,6 +13,7 @@ import image_2 from "../public/images/image2.png";
 import image_3 from "../public/images/image3.png";
 import FeaturedDelicacies from "./components/FeaturedDelicacies";
 import boxData from "../Data/BoxData";
+import VoiceOfFlavour from "./components/VoiceOfFlavour";
 
 export default function Home() {
   const { heading1, heading2, description } = SectionTitleData[0];
@@ -63,7 +64,7 @@ export default function Home() {
 
       {/* Boxes */}
       <div className="flex px-52">
-      <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 ">
+      <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 ">
         {boxData.map((box, index) => (
           <FeaturedDelicacies
             key={index}
@@ -76,6 +77,7 @@ export default function Home() {
       </div>
       </div>
     </section>
+    <VoiceOfFlavour/>
 
     
    

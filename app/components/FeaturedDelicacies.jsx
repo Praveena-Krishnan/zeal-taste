@@ -1,16 +1,16 @@
 import Image from "next/image";
 const FeaturedDelicacies = ({ image, title, description, price }) => {
     return (
-      <div className=" bg-orange-50 shadow-md rounded-3xl p-4 text-center">
+      <div className=" bg-orange-50 shadow-md rounded-3xl p-8 text-center h-[500px]">
         {/* Image */}
-        <Image src={image} alt={title} className=" mx-auto w-24 h-24  rounded-full mb-4 " width={24} height={24} />
+        <Image src={image} alt={title} className="w-48 h-48 mx-auto rounded-full mb-6" width={96} height={96} />
         
         {/* Title */}
         <h3 className="text-green-800 font-semibold text-4xl">{title}</h3>
         
         {/* Description */}
         <p className="text-gray-600  mt-2 text-xl">{description.map((line,index)=>(
-            <span key={index} className="block">{line}</span>
+            <span key={index}>{line}</span>
         ))}</p>
         
         {/* Price */}

@@ -1,6 +1,6 @@
 const boxData = [
     {
-      image: "/images/box2img.png",
+      image: "/images/box1img.png",
       title: "Truffle Mac & Cheese",
       description: [
         'Creamy macaroni and cheese infused with the rich aroma' ,
