@@ -39,7 +39,7 @@ export default function Home() {
       </div>
     </section>
     <div className="bg-teal-50 min-h-screen pb-16">
-    <SectionTitle  heading1={heading1} heading2={heading2} description={description} heading2ClassName={null}/>
+    <SectionTitle  heading1={heading1} heading2={heading2} description={description} isHeading2="true"/>
     {/*our story images*/}
         <div className="flex flex-wrap justify-center items-center gap-12">
           {/* Image 1 and Stat Circle 1 */}
@@ -62,7 +62,7 @@ export default function Home() {
       </div>
       <section className="bg-white py-12 pt-0">
       {/* Section Title */}
-      <SectionTitle heading1="Featured Delicacies" heading2="Signature Selections " description={null}  heading2ClassName={null}/>
+      <SectionTitle heading1="Featured Delicacies" heading2="Signature Selections " description={null}  isHeading2="true"/>
 
       {/* Boxes */}
       <div className="flex px-52">

@@ -6,7 +6,7 @@ const VoicesOfFlavor = () => {
     <section className="bg-green-50 py-16">
       <div className="container mx-auto px-6 md:px-12 lg:px-16 text-center">
         {/* Section Title */}
-        <SectionTitle heading1="About Us" heading2="Voices of Flavor " heading2ClassName={null} />
+        <SectionTitle heading1="About Us" heading2="Voices of Flavor " isHeading2="true" />
 
         
         <div className="mt-12 flex flex-col md:flex-row items-center justify-center gap-12">
